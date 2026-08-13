@@ -1,4 +1,4 @@
-public class Pessoa(){
+public class Pessoa{
     int idade;
     String nome;
     String cpf;
@@ -12,16 +12,17 @@ public class Pessoa(){
         this.dist = dist;
 
     }
-    Pessoa(int i, String n, String c){
+    Pessoa(int idade, String nome, String cpf){
 
-        this.idade = idade;
-        this.nome = nome;
-        this.cpf = cpf;
-
+        idade = i;
+        nome = n;
+        cpf = c;
+        dist = 0;
     }
-    void andar(){
-        
-        System.out.pritnln("Andou " + (d * 2));
+
+    void andar(int d){
+        dist = dist + d;
+        System.out.printf(" A pessoa andou", dist);
         
     }
 
