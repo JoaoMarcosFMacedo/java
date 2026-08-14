@@ -3,9 +3,11 @@ public class Main{
     public static void main(String [] args){
 
 
-        Pessoa p = new Pessoa(89, Carlos, 704.319.684.11, 9999);
-        Pessoa p2 = new Pessoa(50; Pailo; cpf);
+        Pessoa p = new Pessoa(89, "arlos" ," 702-434-433-11", 9999);
+        Pessoa p2 = new Pessoa(50, "pessoa" , "8723-6-323-311");
 
+        System.out.printf("\nPessoa andou %d", p.dist);
+        System.out.printf("\nNome: %s, \nidade: %d \nCPF { %s } \n km andado %d",p2.nome, p2.idade, p2.cpf, p2.andar());
 
 
     }

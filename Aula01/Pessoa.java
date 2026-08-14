@@ -12,7 +12,7 @@ public class Pessoa{
         this.dist = dist;
 
     }
-    Pessoa(int idade, String nome, String cpf){
+    Pessoa(int i, String n, String c){
 
         idade = i;
         nome = n;
@@ -20,10 +20,15 @@ public class Pessoa{
         dist = 0;
     }
 
-    void andar(int d){
+    void andar( int d){
         dist = dist + d;
-        System.out.printf(" A pessoa andou", dist);
+        System.out.printf("andou %d km", dist);
         
     }
-
+    void dormiu(){
+        System.out.printf("\n dormiu");
+    }
+    void aniver(){
+        idade = idade + 1;
+    }
 }
